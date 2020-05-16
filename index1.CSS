@@ -1,0 +1,50 @@
+body{
+margin:0;
+padding:0;
+background-image: url(1.jpg) no-repeat;
+background-size: cover;
+  }
+form{
+  text-align: center;
+color:white;
+font-family: 'Open Sans', sans-serif;
+padding: 25px 5px 5px 5px;
+box-sizing: border-box ;
+top:70%;
+left: 50%;
+position:absolute;
+height: 520px;
+width:800px;
+transform:translate(-50%,-50%);
+background: rgba(0,0,0,0.5);
+
+
+}
+img.dog
+{
+  width: 50%;
+  border-radius: 60%;
+}
+input{
+  margin:25px ;
+  padding-bottom: 20px;
+  padding-top: 14px;
+  width:200px;
+  border-bottom: 10px;
+    text-align:center;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+input[type="login"]{
+  width:350px;
+  background: green;
+}
+input[type="submit"]:hover{
+
+  align-self: :center;
+  background:#00ccff;
+  border-bottom: 10px;
+  border-radius: 24px;
+
+}
