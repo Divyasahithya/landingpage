@@ -7,6 +7,7 @@ body{margin: 0;
 h1{
 	text-align: center;
 	padding-top: 45px;
+	font-size: 70px;
 }
 section{
 	width:fill;
@@ -30,7 +31,7 @@ overflow: hidden;
 slide:nth-child(1){
 	left: 0%;
 	animation-delay:-1s;
-	background-image: url(bf.jpg);
+	background-image: url(first.jpg);
 	background-position: center;
 	background-size: cover; 
 
@@ -39,7 +40,7 @@ slide:nth-child(1){
 slide:nth-child(2){
 	left: 0%;
 	animation-delay:2s;
-	background-image: url(rice.jpg);
+	background-image: url(second.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -48,7 +49,7 @@ slide:nth-child(2){
 slide:nth-child(3){
 	left: 0%;
 	animation-delay:5s;
-	background-image: url(biryani.jpg);
+	background-image: url(third.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -57,7 +58,7 @@ slide:nth-child(3){
 slide:nth-child(4){
 	left: 0%;
 	animation-delay:8s;
-	background-image: url(parotha.jpg);
+	background-image: url(fourth.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -89,13 +90,13 @@ button{
 	border-bottom: 10px;
     text-align:center;
     border-radius: 24px;
-    font-family: "Dancing-script" ,cursive;
+    font-family: "Comic Sans MS" ,cursive,sans-serif;
    	
 }
 button:hover{
 
 	align-self: :center;
-	background:#00ccff;
+	background:#FFB6C1;
 	border-bottom: 10px;
 	border-radius: 24px;
 
