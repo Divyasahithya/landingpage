@@ -1,13 +1,12 @@
 body{
 margin:0;
 padding:0;
-background-image: url(donut.jpg) no-repeat;
 background-size: cover;
 	}
 form{
 	text-align: center;
 color:white;
-font-family: "Dancing-script" ,cursive;
+font-family: 'Open Sans', sans-serif;
 padding: 25px 5px 5px 5px;
 box-sizing: border-box ;
 top:70%;
@@ -20,6 +19,11 @@ background: rgba(0,0,0,0.5);
 
 
 }
+img
+{
+  width: 20%;
+  border-radius: 30%;
+}
 input{
 	margin:25px ;
 	padding-bottom: 20px;
@@ -28,7 +32,7 @@ input{
 	border-bottom: 10px;
     text-align:center;
     border-radius: 24px;
-    font-family: "Dancing-script" ,cursive;
+    font-family: 'Open Sans', sans-serif;
    	
 }
 input[type="submit"]{
