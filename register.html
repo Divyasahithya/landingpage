@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="login1.css">
+</head>
+<body>
+	<!--use GET,not POST-->
+
+<div>
+<form method="GET" action="action.php">
+	<span>First Name:</span><input type="text"name="firstname" ><br>
+	Last Name:<input type="text" name="lastname"><br>
+	Email:<input type="email" required name="email"><br>
+	password:<input type="password" min="5" name="password"> <br>
+	Birthday:<input type="date" name="birthday"><br>
+	Gender:<br>
+	<input type="radio" name="gender" value="male">Male<br>
+	<input type="radio" name="gender" value="female">Female<br>
+	<input type="radio" name="gender" value="other">Other<br>
+
+	<textarea placeholder="ADDRESS" rows="4" cols="50"></textarea> 
+<!--Cars
+<select name="cars">
+	<option value="volvo" name="volvo">Volvo</option>
+	<option value="Audi" name="audi">Audi</option>
+</select>--><br>
+	<input type="submit" value="Register!!">
+	<input type="reset">
+</form>
+</div>
+</body>
+</html>
+

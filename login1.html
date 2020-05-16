@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="login1.css">
+</head>
+<body style="background-image: url(donut.jpg);">
+	<h1> LOGIN FORM</h1>
+<form name="form" method="quiz()">
+	Username<input required type="text" placeholder="Enter Your Name" name="user" /><br>
+	Password<input required type="password" placeholder="Password"  name="pass"/><br>
+
+<input  type="submit" name="Login" value="Login"><br>
+<a href="register.html">New User</a>
+
+</form>
+<script>
+	function quiz(){
+		if((document.form.user.value=="Divya"||"Lalitha"||"Harshitha"||"Sravani"||"Bhavya")&&document.form.pass.value=="quiz"){
+			document.form.action="customer.html";
+			
+		}
+		else
+			alert("wrong password");
+	}
+	</script>
+</body>
+</html>

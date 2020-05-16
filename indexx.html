@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food 4 Poor</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	
+		<h1>FOOD 4 POOR</h1>
+
+<slider>
+			<slide></slide>
+				<slide></slide>
+				<slide></slide>
+				<slide></slide>
+			</slider>
+		
+        <div class="login">
+        	<button onclick="getLocation()">Location</button>
+        	<p id="demo"></p>
+			<a href="login1.html"><button class="ADMIN">Continue as ADMIN</button><br></a>
+			<a href="login1.html"><button class="MERCHANT">Continue as  FOOD MERCHANT</button><br></a>
+			<a href="login1.html"><button class="CUSTOMER">Continue as CUSTOMER</button><br></a>
+		</div>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+  var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+
+  document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+
+</script>
+
+
+
+</body>
+</html>

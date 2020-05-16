@@ -1,0 +1,45 @@
+body{
+margin:0;
+padding:0;
+background-image: url(donut.jpg) no-repeat;
+background-size: cover;
+	}
+form{
+	text-align: center;
+color:white;
+font-family: "Dancing-script" ,cursive;
+padding: 25px 5px 5px 5px;
+box-sizing: border-box ;
+top:70%;
+left: 50%;
+position:absolute;
+height: 520px;
+width:800px;
+transform:translate(-50%,-50%);
+background: rgba(0,0,0,0.5);
+
+
+}
+input{
+	margin:25px ;
+	padding-bottom: 20px;
+	padding-top: 14px;
+	width:200px;
+	border-bottom: 10px;
+    text-align:center;
+    border-radius: 24px;
+    font-family: "Dancing-script" ,cursive;
+   	
+}
+input[type="submit"]{
+	width:350px;
+	background: green;
+}
+input[type="submit"]:hover{
+
+	align-self: :center;
+	background:#00ccff;
+	border-bottom: 10px;
+	border-radius: 24px;
+
+}
