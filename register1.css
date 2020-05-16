@@ -20,16 +20,22 @@ width: 800px;
 transform:translate(-50%,-50%);
 
 }
-input{
+input,textarea{
 	margin:25px ;
 	padding-bottom: 20px;
 	padding-top: 14px;
 	width:200px;
 	border-bottom: 10px;
+	border-radius: 25px;
     text-align:center;
     font-family: "Comic Sans MS" ,cursive,sans-serif;
-   	
-}
+ }
+ input[type="radio"]{
+ 	
+ 	position: absolute;
+ }
+
+
 input[type="submit"]{
 	width:350px;
 	background: green;

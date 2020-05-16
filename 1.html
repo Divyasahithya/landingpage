@@ -6,8 +6,9 @@
 </head>
 <body style="background-image: url(11.jpg);">
 <img src="sr.jpg" alt=" ">
-	<h1> LOGIN FORM</h1>
-<form name="form" method="quiz()">
+	<h1> LOGIN FORM FOR CUSTOMER</h1>
+
+<form name="form" method="login()" action="custo.html">
 	Username<input required type="text" placeholder="Enter Your Name" name="user" /><br>
 	Password<input required type="password" placeholder="Password"  name="pass"/><br>
 
@@ -16,9 +17,9 @@
 
 </form>
 <script>
-	function quiz(){
-		if((document.form.user.value=="Divya"||"Lalitha"||"Harshitha"||"Sravani"||"Bhavya")&&document.form.pass.value=="quiz"){
-			document.form.action="customer.html";
+	function login(){
+		if(true){
+			document.form.action="custo.html";
 			
 		}
 		else
