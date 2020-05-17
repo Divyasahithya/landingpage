@@ -31,7 +31,7 @@ overflow: hidden;
 slide:nth-child(1){
 	left: 0%;
 	animation-delay:-1s;
-	background-image: url(first.jpg);
+	background-image: url(img/first.jpg);
 	background-position: center;
 	background-size: cover; 
 
@@ -40,7 +40,7 @@ slide:nth-child(1){
 slide:nth-child(2){
 	left: 0%;
 	animation-delay:2s;
-	background-image: url(second.jpg);
+	background-image: url(img/second.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -49,7 +49,7 @@ slide:nth-child(2){
 slide:nth-child(3){
 	left: 0%;
 	animation-delay:5s;
-	background-image: url(third.jpg);
+	background-image: url(img/third.jpg);
 	background-position: center;
 	background-size: cover;
 	
@@ -58,7 +58,7 @@ slide:nth-child(3){
 slide:nth-child(4){
 	left: 0%;
 	animation-delay:8s;
-	background-image: url(fourth.jpg);
+	background-image: url(img/fourth.jpg);
 	background-position: center;
 	background-size: cover;
 	

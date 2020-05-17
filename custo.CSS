@@ -10,6 +10,7 @@ width:70px;
 background-color:green;
 float:centre;
 color:black;
+border-radius: 25px;
 
 }
 
@@ -26,7 +27,7 @@ color:black;
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+
 }
 
 #myBtn:hover {

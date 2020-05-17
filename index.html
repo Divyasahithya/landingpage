@@ -16,33 +16,14 @@
 			</slider>
 		
         <div class="login">
-        	<button onclick="getLocation()">Location</button>
+        
         	<p id="demo"></p>
 			<a href="3.html"><button class="ADMIN">Continue as ADMIN</button><br></a>
 			<a href="2.html"><button class="MERCHANT">Continue as  FOOD MERCHANT</button><br></a>
 			<a href="1.html"><button class="CUSTOMER">Continue as CUSTOMER</button><br></a>
+			<a href="https://www.instagram.com/food4poor" style="color: white">view our Instagram</a>
+
 		</div>
-<script>
-var x = document.getElementById("demo");
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  var latlon = position.coords.latitude + "," + position.coords.longitude;
-
-  var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
-
-  document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
-}
-
-</script>
-
-
 
 </body>
 </html>
