@@ -8,6 +8,11 @@ body{
 	font-size: 24px;
 	overflow: hidden;
 }
+h3{
+	color: red;
+	animation: movement 9s linear infinite;
+	transform: translateX(100%);
+}
 
 #m{
 	border-radius: 25px;
@@ -38,4 +43,9 @@ body{
    position: absolute;
    cursor: pointer;
 
+	}
+	@keyframes movement{
+		0%{transform: translateX(100%);}
+		100%{transform: translateX(-100%);}
+	
 	}
