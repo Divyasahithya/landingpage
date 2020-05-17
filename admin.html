@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="admin.css">
+</head>
+
+<body style="background-image: url(red.jpg);">
+	<center>
+	<button id="G P S" style="background-color:green"  onclick="alert('PLEASE TURN ON GPS')">G P S</button><br>
+	
+	<div id="displaytable" class="placeholder">
+  <table id="displaytable2" width="80%" cellpadding="3" cellspacing="2" border="3" >
+    <tr align="center">
+      <td class="lbl">LOCATION</td>
+      <td class="lbl">NAME OF THE MERCHANT</td>
+      <td class="lbl">NO OF WORKERS</td>
+    </tr>
+    <tr>
+      <td align="center">Balaji nagar</td>
+      <td align="center">Sree hari</td>
+      <td align="center">4</td>
+    </tr>
+    <tr>
+      <td align="center">Nawabpet</td>
+      <td align="center">Vivek</td>
+      <td align="center">2</td>
+    </tr>
+  </table>
+</div>
+<div>
+  <input type="button"  style="background-color: blue" id="clickme" value="MERCHANTS NEAR ME" />
+</div>
+</center>
+</body>
+</html>
+<script type="text/javascript">
+	var click = document.getElementById('clickme');
+click.addEventListener('click', myfunction);
+
+function myfunction() {
+  var tablewrap = document.getElementById('displaytable');
+  tablewrap.classList.toggle('hidden')
+};
+
+</script>
