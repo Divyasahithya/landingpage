@@ -4,22 +4,21 @@
 	<title>Login Form</title>
 	<link rel="stylesheet" type="text/css" href="login1.css">
 </head>
-<body style="background-image: url(img/11.jpg);">
-<img src="img/sr.jpg" alt=" ">
-	<h1 style="color: white"> LOGIN FORM FOR CUSTOMER</h1>
-
-<form name="form" method="login()" action="custo.html">
+<body style="background-image: url(two.jpg);">
+<img src="dog.jpg" alt=" ">
+	<h1> LOGIN FORM</h1>
+<form name="form" method="quiz()">
 	Username<input required type="text" placeholder="Enter Your Name" name="user" /><br>
 	Password<input required type="password" placeholder="Password"  name="pass"/><br>
 
 <input  type="submit" name="Login" value="Login"><br>
-<a href="https://forms.gle/BxGSaba7zVfJhYw5A">New User</a>
+<a href="register.html">New User</a>
 
 </form>
 <script>
-	function login(){
-		if(true){
-			document.form.action="custo.html";
+	function quiz(){
+		if((document.form.user.value=="Divya"||"Lalitha"||"Harshitha"||"Sravani"||"Bhavya")&&document.form.pass.value=="quiz"){
+			document.form.action="customer.html";
 			
 		}
 		else

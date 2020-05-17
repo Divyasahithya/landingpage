@@ -4,6 +4,11 @@ body{margin: 0;
 	
 	background-size:cover;
 }
+img{
+top:40%;
+left: 50%;
+transform:translate(-50%,-50%);
+}
 h1{
 	text-align: center;
 	padding-top: 45px;
@@ -72,12 +77,12 @@ color:white;
 font-family: "Oswald" ,sans-serif;
 padding: 25px 5px 5px 5px;
 box-sizing: border-box;
-top:70%;
+top:90%;
 left: 50%;
 position:absolute;
 height: 520px;
 width:800px;
-transform:translate(-50%,-50%);
+transform:translate(-40%,-50%);
 background: rgba(0,0,0,0.5);
 
 
