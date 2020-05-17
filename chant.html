@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="merchant.css">
+</head>
+<body>
+<a href="mer.html" class="notification">
+  <span>Inbox</span>
+  <span class="badge">1</span>
+</a>
+<h3 id="c"></h3>
+<p>Enter the message to the customer:</p><br>
+<textarea placeholder="message" rows="10" cols="45" name="message"></textarea>
+<button id="m" onclick="alert('Your message has been sent to customer')">Send message</button><br>
+<button id="b" onclick="send()">Food is Ready</button>
+<script type="text/javascript">
+	function send(){
+	document.getElementById("c").innerHTML="Please send the Food to the Customer\'s location"
+}
+</script>
+</body>
+</html>
